@@ -40,7 +40,6 @@ a {
 
 /* Navigation Menu */
 .navmenu ul {
-  list-style: none;
   display: flex;
   gap: 20px;
   padding: 0;
@@ -48,13 +47,12 @@ a {
 }
 
 .navmenu ul li {
+  /*enlever les point de ul */
   display: inline-block;
 }
 
 .navmenu ul li a {
-  text-decoration: none;
   color: #333;
-  font-size: 16px;
   padding: 10px 15px;
   transition: color 0.3s ease-in-out;
 }
@@ -64,22 +62,10 @@ a {
   color: #34B7A7;
 }
 
-/* Social Links */
-.social-links a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #333;
-  transition: color 0.3s ease-in-out;
-}
-
-.social-links a:hover {
-  color: #34B7A7;
-}
 
 .social-links a img {
   width: 24px;
   height: 24px;
-  transition: transform 0.3s ease-in-out;
 }
 
 .social-links a:hover img {
@@ -93,7 +79,6 @@ a {
 
 /* Hero Section */
 .hero {
-  position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -101,7 +86,6 @@ a {
   justify-content: center;
   text-align: center;
   color: white;
-  overflow: hidden;
 }
 
 /* Background Image */
@@ -115,10 +99,7 @@ a {
 
 /* Content */
 .hero .container {
-  position: relative;
   z-index: 1;
-  padding: 20px;
-  border-radius: 10px;
 }
 
 .hero h2 {
@@ -128,7 +109,6 @@ a {
 
 .hero p {
   font-size: 18px;
-  margin-bottom: 20px;
 }
 
 /* Button */
@@ -137,10 +117,8 @@ a {
   background-color: #34B7A7;
   color: white;
   padding: 10px 20px;
-  text-decoration: none;
   font-size: 18px;
   border-radius: 5px;
-  transition: background 0.3s ease-in-out;
 }
 
 .btn-get-started:hover {
@@ -154,30 +132,4 @@ a {
   text-align: center;
   font-size: 14px;
   color: #333;
-}
-
-/* Footer Container */
-.footer .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-/* Copyright */
-.footer .copyright {
-  margin-bottom: 10px;
-}
-
-/* Credits */
-.footer .credits {
-  font-size: 12px;
-}
-
-.footer .credits a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.footer .credits a:hover {
-  text-decoration: underline;
 }
